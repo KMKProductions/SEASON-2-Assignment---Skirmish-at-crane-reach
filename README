@@ -1,0 +1,15 @@
+DESIGN GOAL:
+
+I wanted to improve pathfinding, especially with the new terrain in play. I also wanted to improve the teamwork from the archer and footman. Furthermore, I wanted my troops
+to avoid harmful environments but use beneficial environments to their advantage.
+
+REFLECTION:
+
+I was having trouble when it came to the archer and footman's teamwork. To fix this, I created an invisible line from the footman's position that the archer shouldn't cross or 
+retreat back when they've crossed it. When it came to the environment, I had the units make exceptions to their previous coding rules, such as movement when an enemy is seen,
+to account for the environment. I had trouble figuring out water pathfinding, however.
+
+AI-USE:
+
+I did use GitHub Copilot a lot to assist me with this project. It helped implement ideas and fix bugs in the code. I tested the code by constantly running it and checked the code
+by reading and understanding it myself. While the coding agent did run into a lot of bumps, I think the project was made easier by its help.
